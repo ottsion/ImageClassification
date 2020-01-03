@@ -8,7 +8,9 @@ How to perform the task of image classification with ~~none~~ few samples in eac
 3. Training refined classification model
 
 Data crawling using `beautifulsop` processing
+
 Code data processing adopts` torchvision `processing
+
 This model adopts the trained version of `vgg16` model of pytorch
 
 ## Crawling image data to be classified
@@ -33,11 +35,12 @@ Generally, it can be:
 
 Put the precious small amount of sample data you have into the directory `./data/train/`, which is the final classification target
 
-## model training
+## Model training
 
 The core file is`recognition/models.py`
 
-What needs to be revised::
+What needs to be revised:
+
 1. Modify `n_classes` in the main function to the number of your categories
 2. Model address `model_base_path`
 3. Your GPU info : `os.environ[`CUDA_VISIBLE_DEVICES`]=`0,1``
@@ -46,8 +49,8 @@ As the topic said, you need to use different training sets to train the model tw
 
 Remember to switch datasets when using. By default, you can use datasets in `train` for training. You can modify them freely
 
-
-
+## Download&Contact
 Basic model download:：[VGG16](https://pan.baidu.com/s/1LHTn89jgCr6MRCe2n4kFlw)
+
 In case of failure, contact: `emsunfc@163.com`
 
