@@ -49,6 +49,20 @@ As the topic said, you need to use different training sets to train the model tw
 
 Remember to switch datasets when using. By default, you can use datasets in `train` for training. You can modify them freely
 
+## Test Result
+
+The following is the accuracy test results. Of course, we should not only focus on the accuracy, but also pay attention to the sample situation. It is better to use Gan to generate small samples to increase the sample size...
+
+Base Model：
+
+![](H:/code/ImageClassification/asserts/score_1.PNG)
+
+   
+
+Update Model：
+
+![](H:/code/ImageClassification/asserts/score_2.PNG)
+
 ## Download&Contact
 Basic model download:：[VGG16](https://pan.baidu.com/s/1LHTn89jgCr6MRCe2n4kFlw)
 
